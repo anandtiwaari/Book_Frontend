@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user_initial {
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 9px;
+}
+
+.image_span {
+  max-height: 13rem !important;
+  width: 100% !important;
+}
+.image_span img {
+  height: 135px !important;
+  width: 100% !important;
+}
+.wrapper_cardss .p-card {
+  height: min-content !important;
+}
+
+.wrapper_sub .p-para {
+  border: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 3px 4px;
+  outline: none !important;
+  background-color: none;
+  background-color: #383535;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+.wrapper_all .p-fieldset .p-toggleable-content .p-fieldset-content {
+  padding-top: 0px !important;
+  background: none !important;
+}
+
+.wrapper_all .p-fieldset {
+  background: none !important;
+}
+
+.wrapper_all .p-fieldset .p-fieldset-legend .p-fieldset-legend-text {
+  background: gray !important;
+}
+.wrapper_all .p-fieldset .p-fieldset-legend {
+  float: right !important;
+}
+.p-card-header {
+  height: 250px !important;
+  max-height: 250px !important;
+}
+.deleIcon {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.25rem 1rem;
+  margin-right: 11px;
+}
+.EditIcon {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 0.25rem 1rem;
+}
+.p-card-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.p-confirm-dialog-accept {
+  padding: 0.75rem 1.25rem;
+  background-color: #06b6d4;
+  color: white;
+}
+.p-confirm-dialog-reject {
+  padding: 0.75rem 1.25rem;
+  color: #06b6d4;
+  margin-right: 1rem;
+}
+nav {
+  z-index: 999 !important;
+  position: fixed !important;
+  top: 0 !important;
+  width: -webkit-fill-available !important;
+}
+/* #fileInput {
+  display: none;
+}
+
+#uploadButton {
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+} */
+body {
+  background-color: gray;
+}
